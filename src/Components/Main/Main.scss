@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+.main-text {
+  font-family: 'Cinzel', serif;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: left;
+  position: absolute;
+  top: 15rem;
+  left: 10rem;
+  width: 50rem;
+  z-index: 2
+}
+
+.main-image {
+  position: relative;
+  top: 18rem;
+  img {
+    width: 80%;
+
+  }
+}
+
+.scroll-div {
+  position: relative;
+  top: 13.5rem;
+  left: 20rem;
+  .arrow-img {
+    z-index: 3;
+    width: 30px;
+    height: 50px;
+  }
+  
+  .scroll-text {
+    letter-spacing: 0.3px;
+    position: relative;
+    top: 15px;
+    right: 15px;
+    transform: rotate(90deg);
+    color: white;
+  }
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+
+.Second-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20rem;
+
+  .second-text p {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: start;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 50rem;
+    cursor: pointer;
+  }
+
+  .services {
+
+    p {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    }
+    ul {
+      list-style: none;
+
+      li {
+        text-align: start;
+        line-height: 2rem;
+      }
+    }
+  }
+}
